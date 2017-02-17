@@ -1,0 +1,12 @@
+.top .main .list:hover span{
+	display: inline-block;
+	animation: rotate .2s forwards;
+}
+@keyframes rotate{
+	to{
+		transform: rotate(180deg);
+	}
+}
+body{
+	color: red;
+}
